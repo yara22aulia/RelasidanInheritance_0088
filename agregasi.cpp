@@ -23,5 +23,4 @@ int main(){
     //pemanggilan prosedur cetakAnak()
     varIbu->cetakAnak();
     varIbu2->cetakAnak();
-
 }
