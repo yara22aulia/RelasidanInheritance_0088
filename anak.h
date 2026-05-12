@@ -8,11 +8,13 @@ public:
     string nama;
 
     //membuat constructor dan destructor pada class anak
-    anak(string pNama) : nama(pNama) {
+    anak(string pNama) : nama(pNama) 
+    {
         cout << "Anak \"" << nama << "\" ada \n";
     }
 
-    ~anak() {
+    ~anak() 
+    {
         cout << "Anak \"" << nama << "\" tidak ada\n";
     }
 };
