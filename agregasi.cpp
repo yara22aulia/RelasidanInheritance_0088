@@ -7,8 +7,7 @@ using namespace std;
 #include "anak.h"
 #include "ibu.h"
 
-int main()
-{
+int main(){
     //deklarasi dan pemberian nilai variabel pointer untuk objek dari class ibu dan anak
     Ibu* varIbu = new Ibu("rani");
     Ibu* varIbu2 = new Ibu("sari");
@@ -25,5 +24,4 @@ int main()
     varIbu->cetakAnak();
     varIbu2->cetakAnak();
 
-    return 0;
 }
