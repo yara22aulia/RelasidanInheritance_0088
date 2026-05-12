@@ -22,7 +22,8 @@ public:
     }
 
     //pembuatan function jumlah
-    int jumlah(int a, int b) {
+    int jumlah(int a, int b) 
+    {
         return a + b;
     }
 
