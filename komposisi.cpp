@@ -6,8 +6,7 @@ using namespace std;
 #include "jantung.h"
 #include "manusia.h"
 
-int main() 
-{
+int main() {
     // deklarasi dan pemberian nilai object pointer varManusia
     Manusia* varManusia = new Manusia("jono");
 
