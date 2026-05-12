@@ -8,7 +8,8 @@ public:
      //membuat member variabel class manusia
     string name;
     jantung varJantung;
-    Manusia(string pName) : name(pName) {
+    Manusia(string pName) : name(pName) 
+    {
         cout << name << " Hidup\n";
     }
     ~Manusia() {
