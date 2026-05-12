@@ -2,7 +2,8 @@
 #define ANAK_H
 
 //membuat class anak di file header anak.h
-class anak {
+class anak 
+{
 public:
     //deklarasi member variabel pada class anak
     string nama;
