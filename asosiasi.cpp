@@ -29,7 +29,8 @@ public:
 };
 
 // pembuatan class dokter
-class dokter {
+class dokter 
+{
 public:
     // deklarasi member variabel dari class dokter
     string nama;
