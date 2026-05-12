@@ -12,7 +12,8 @@ public:
     {
         cout << name << " Hidup\n";
     }
-    ~Manusia() {
+    ~Manusia() 
+    {
         cout << name << " Mati\n";
     }
 };
