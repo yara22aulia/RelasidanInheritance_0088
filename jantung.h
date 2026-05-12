@@ -2,7 +2,8 @@
 #define JANTUNG_H
 
 //membuat class jantung di file header jantung.h
-class jantung {
+class jantung 
+{
 public:
     //membuat constructor dan destructor class jantung
     jantung() {
